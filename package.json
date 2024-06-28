@@ -1,0 +1,30 @@
+{
+  "name": "windows-unattend-install",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "pnpm --engine-strict tsx src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.5",
+    "@types/inquirer": "^9.0.7",
+    "@types/meow": "^6.0.0",
+    "@types/node": "^20.14.9",
+    "tsx": "^4.15.7"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">=20.11"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cli-progress": "^3.12.0",
+    "inquirer": "^9.3.1",
+    "meow": "^13.2.0"
+  }
+}
