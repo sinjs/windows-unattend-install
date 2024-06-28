@@ -46,23 +46,8 @@ programs.
   - Enables Dark Mode by default.
   - Aligns the Start Button in Windows 11 to the left by default.
 
-## Information
-
 > [!NOTE]
 > Due to the removal of Microsoft Edge, I also include a Powershell Script on the Desktop called "LAUNCH-CTT-WINUTIL.ps1"
-
-## Credits
-
-- Base Answer File generation:
-  - [Schneegans Unattend Generator](https://schneegans.de/windows/unattend-generator/)
-- Windows Tweaks & Optimizations:
-  - [ChrisTitusTech WinUtil](https://github.com/ChrisTitusTech/winutil)
-- Various Tweaks:
-  - [Tiny11Builder](https://github.com/ntdevlabs/tiny11builder)
-  - [Ten Forums](https://www.tenforums.com/)
-  - [Eleven Forum](https://www.elevenforum.com/)
-  - [Winaero Tweaker](https://winaerotweaker.com/)
-  - [memstechtips](https://github.com/memstechtips)
 
 ## How to create an ISO file
 
@@ -106,3 +91,16 @@ pnpm build # Build the autounattend.xml
 ```
 
 You now have a `dist` folder with the `autounattend.xml` file inside of there.
+
+## Credits
+
+- Base Answer File generation:
+  - [Schneegans Unattend Generator](https://schneegans.de/windows/unattend-generator/)
+- Windows Tweaks & Optimizations:
+  - [ChrisTitusTech WinUtil](https://github.com/ChrisTitusTech/winutil)
+- Various Tweaks:
+  - [Tiny11Builder](https://github.com/ntdevlabs/tiny11builder)
+  - [Ten Forums](https://www.tenforums.com/)
+  - [Eleven Forum](https://www.elevenforum.com/)
+  - [Winaero Tweaker](https://winaerotweaker.com/)
+  - [memstechtips](https://github.com/memstechtips)
