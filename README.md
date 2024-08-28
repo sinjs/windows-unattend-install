@@ -74,6 +74,8 @@ programs.
 3. Click **`START`** (Your USB will be wiped)
 4. Boot from the USB stick and continue installing Windows as usually
 
+**Hint:** If your desired Windows Edition does not show up in the Edition selection screen, you need to change the Product Key in the autounattend.xml file from `00000-00000-00000-00000-00000` to [one of these keys](https://gist.github.com/rvrsh3ll/0810c6ed60e44cf7932e4fbae25880df#default-product-keys) to select the correct Windows Edition.
+
 ## Building the `autounattend.xml` yourself
 
 ### Requirements
